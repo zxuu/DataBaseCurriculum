@@ -10,23 +10,20 @@ public class FrameSet {
     BackImg backImg;
 
     Container container;
-    public FrameSet(String FrameTitle, String imageLocation) {
+    public FrameSet(String FrameTitle) {
         windows = new JFrame(FrameTitle);
-
-//        jPanel = new JPanel();
-//        jPanel.setOpaque(false);
-//        windows.setContentPane(jPanel);
-
-        backImg = new BackImg(imageLocation);
-        windows.add(backImg);
         windows.setVisible(true);
         windows.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         container = windows.getContentPane();
     }
 
+    public void setBackImage(String location) {
+        backImg = new BackImg(location);
+        windows.add(backImg);
+    }
 
     public void setFrame(int winX,int winY,int width,int height){
-        backImg.setBounds(0,0,width,height);
+//        backImg.setBounds(0,0,width,height);
         windows.setBounds(winX,winY,width,height);
     }
 

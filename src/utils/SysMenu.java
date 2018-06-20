@@ -1,7 +1,6 @@
 package utils;
 
-import activity.DocotorRegister;
-import activity.DoctorRigister;
+import activity.DoctorRegisters;
 
 import javax.swing.*;
 import java.awt.*;
@@ -36,7 +35,7 @@ public class SysMenu extends Menu {
     }
 
     private void Item2ClickResult() {
-        new DocotorRegister();
+        new DoctorRegisters();
     }
 
     public JMenuBar AddMenue() {

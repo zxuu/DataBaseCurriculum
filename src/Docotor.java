@@ -10,7 +10,7 @@ public class Docotor {
         Statement sql = null;
         try {
             sql = GetDBConnection.connectDB("DPDB",user,password).createStatement();
-            ResultSet rs = sql.executeQuery("SELECT * FROM Course");
+            ResultSet rs = sql.executeQuery("SELECT Dname,Dsex FROM Doctor");
             while (rs.next()) {
                 String Sno = rs.getString(1);
                 String Sname = rs.getString(2);
