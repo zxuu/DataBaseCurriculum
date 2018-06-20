@@ -1,6 +1,6 @@
 package utils;
 
-import activity.DoctorRegisters;
+import jframe.DoctorRegisters;
 
 import javax.swing.*;
 import java.awt.*;

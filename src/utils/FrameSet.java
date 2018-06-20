@@ -1,4 +1,4 @@
-package DocoterSys;
+package utils;
 
 import utils.BackImg;
 import javax.swing.*;

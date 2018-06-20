@@ -1,8 +1,8 @@
 package DocoterSys;
+import utils.FrameSet;
 import utils.SysMenu;
 
 import javax.swing.*;
-import java.awt.*;
 
 
 public class SysView extends JFrame{

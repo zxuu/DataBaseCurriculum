@@ -1,6 +1,8 @@
-package activity;
+package jframe;
 
-import DocoterSys.FrameSet;
+import utils.DocRegHelp;
+import utils.FrameSet;
+import model.Doctor;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -11,10 +13,13 @@ public class DoctorRegisters {
     FrameSet frameSet;
     JFrame DRJFrame;
 
-    String name,sex,tel,password,birth,ID,adress,workunit,workexperence;
-    int age;
+    String name,sex,age,tel,password,birth,ID,adress,workunit,workexperence;
+
+    Doctor doctor;
+    DocRegHelp docRegHelp;
 
     public DoctorRegisters() {
+        doctor = new Doctor();
         frameSet = new FrameSet("医生注册");
         frameSet.setFrame(100,100,540,1040);
         DRJFrame = frameSet.getJFrame();
@@ -25,13 +30,29 @@ public class DoctorRegisters {
         // TODO add your code here
         name = textField1name.getText();
         sex = textFieldsex.getText();
-        tel = textFieldsex.getText();
+        age = textFieldage.getText();
+        tel = textFieldtel.getText();
         password = textFieldtelpassw.getText();
         birth = textFieldbirth.getText();
         ID = textFieldID.getText();
         adress = textFieldadress.getText();
         workunit = textFieldworklo.getText();
         workexperence = textAreaworkep.getText();
+
+        doctor.setName(name);
+        doctor.setSex(sex);
+        doctor.setAge(age);
+        doctor.setTel(tel);
+        doctor.setBirth(birth);
+        doctor.setPassword(password);
+        doctor.setID(ID);
+        doctor.setAdress(adress);
+        doctor.setWorkunit(workunit);
+        doctor.setWorkexperence(workexperence);
+
+        docRegHelp = new DocRegHelp();
+        docRegHelp.writeDocRegModel(doctor);
+
     }
 
     private void initComponents() {
