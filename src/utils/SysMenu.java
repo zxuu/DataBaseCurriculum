@@ -1,6 +1,7 @@
 package utils;
 
-import jframe.DoctorRegisters;
+import jframe.DoctorRegister;
+import jframe.UserRegister;
 
 import javax.swing.*;
 import java.awt.*;
@@ -31,11 +32,11 @@ public class SysMenu extends Menu {
     }
 
     private void Item1ClickResult() {
-        System.out.println("item1");
+        new UserRegister();
     }
 
     private void Item2ClickResult() {
-        new DoctorRegisters();
+        new DoctorRegister();
     }
 
     public JMenuBar AddMenue() {

@@ -1,18 +1,14 @@
 package DocoterSys;
-import utils.FrameSet;
-import utils.SysMenu;
-
-import javax.swing.*;
+import jframe.MainJFrame;
 
 
-public class SysView extends JFrame{
+
+public class SysView{
 
     public static void main(String[] args) {
 
-        SysMenu sysMenu = new SysMenu();
-        FrameSet SysFrame = new FrameSet("家庭信息管理系统");
-        SysFrame.getJFrame().setJMenuBar(sysMenu.AddMenue());
-        SysFrame.setFrame(300,200,1000,600);
+        MainJFrame mainJFrame= new MainJFrame("家庭医生信息管理系统");
+
 
     }
 

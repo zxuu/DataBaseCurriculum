@@ -1,28 +1,24 @@
 package jframe;
 
 import utils.DocRegHelp;
-import utils.FrameSet;
 import model.Doctor;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class DoctorRegisters {
+public class DoctorRegister extends BaseJFrame{
 
-    FrameSet frameSet;
-    JFrame DRJFrame;
 
     String name,sex,age,tel,password,birth,ID,adress,workunit,workexperence;
 
     Doctor doctor;
     DocRegHelp docRegHelp;
 
-    public DoctorRegisters() {
+    public DoctorRegister(String jframetitle) {
+        super(jframetitle);
         doctor = new Doctor();
-        frameSet = new FrameSet("医生注册");
-        frameSet.setFrame(100,100,540,1040);
-        DRJFrame = frameSet.getJFrame();
+        setFrame(100,100,540,1040);
         initComponents();
     }
 
@@ -84,7 +80,7 @@ public class DoctorRegisters {
         comboBox1 = new JComboBox<>();
 
         //======== this ========
-        Container contentPane = frameSet.getContainer();
+        Container contentPane = getContainer();
         contentPane.setLayout(null);
         contentPane.add(textField1name);
         textField1name.setBounds(155, 30, 250, 45);

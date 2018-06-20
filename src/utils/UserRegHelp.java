@@ -1,6 +1,6 @@
 package utils;
 
-import model.Doctor;
+import model.User;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -8,12 +8,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class DocRegHelp {
-
+public class UserRegHelp {
     Connection cno;
     PreparedStatement presql;
 
-    public DocRegHelp() {
+    public UserRegHelp() {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         } catch (ClassNotFoundException e) {
@@ -27,22 +26,17 @@ public class DocRegHelp {
         }
     }
 
-    public void writeDocRegModel(Doctor doctor) {
+    public void writeUserRegModel(User user){
+        String sqlStr = "insert into Users values(?,?,?,?,?)";
 
-
-        String sqlStr = "insert into Doctors values(?,?,?,?,?,?,?,?,?)";
         int ok = 0;
         try {
             presql = cno.prepareStatement(sqlStr);
-            presql.setString(1,doctor.getName());
-            presql.setString(2,doctor.getSex());
-            presql.setString(3,doctor.getAge());
-            presql.setString(4,doctor.getTel());
-            presql.setString(5,doctor.getBirth());
-            presql.setString(6,doctor.getID());
-            presql.setString(7,doctor.getAdress());
-            presql.setString(8,doctor.getWorkunit());
-            presql.setString(9,doctor.getWorkexperence());
+            presql.setString(1,user.getUname());
+            presql.setString(2,user.getUsex());
+            presql.setString(3,user.getUage());
+            presql.setString(4,user.getUtel());
+            presql.setString(5,user.getUdescribe());
 
             ok = presql.executeUpdate();
             cno.close();

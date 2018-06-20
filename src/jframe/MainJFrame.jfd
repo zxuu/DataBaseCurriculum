@@ -1,0 +1,33 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "userlogintn"
+				"text": "用户登陆"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userlogintnActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 280
+				"y": 115
+				"width": 285
+				"height": 70
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "docloginbtn"
+				"text": "医生登陆"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "docloginbtnActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 285
+				"height": 70
+				"x": 280
+				"y": 250
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 734, 418 )
+		} )
+	}
+}
