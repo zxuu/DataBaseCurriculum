@@ -10,22 +10,24 @@ public class FrameSet {
     BackImg backImg;
 
     Container container;
-
     public FrameSet(String FrameTitle, String imageLocation) {
         windows = new JFrame(FrameTitle);
-        backImg = new BackImg(imageLocation);
 
+//        jPanel = new JPanel();
+//        jPanel.setOpaque(false);
+//        windows.setContentPane(jPanel);
+
+        backImg = new BackImg(imageLocation);
+        windows.add(backImg);
+        windows.setVisible(true);
+        windows.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         container = windows.getContentPane();
     }
 
 
     public void setFrame(int winX,int winY,int width,int height){
-//        Container container = windows.getContentPane();
         backImg.setBounds(0,0,width,height);
         windows.setBounds(winX,winY,width,height);
-        windows.add(backImg);
-        windows.setVisible(true);
-        windows.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
 //    public void setMenuBar() {
@@ -39,4 +41,5 @@ public class FrameSet {
     public JFrame getJFrame() {
         return windows;
     }
+
 }
