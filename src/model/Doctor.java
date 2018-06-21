@@ -2,7 +2,7 @@ package model;
 
 public class Doctor {
 
-    String name,sex,age,tel,password,birth,ID,adress,workunit,workexperence;
+    String name,sex,age,tel,birth,ID,adress,workunit,workexperence,password;
 
     public String getName() {
         return name;

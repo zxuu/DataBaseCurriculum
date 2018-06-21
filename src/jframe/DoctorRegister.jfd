@@ -173,22 +173,6 @@ new FormModel {
 				"x": 105
 				"y": 265
 			} )
-			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "textFieldtelpassw"
-			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
-				"width": 250
-				"height": 45
-				"x": 155
-				"y": 250
-			} )
-			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "textFieldteldienpassw"
-			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
-				"width": 250
-				"height": 45
-				"x": 155
-				"y": 305
-			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label9"
 				"text": "确认密码"
@@ -208,6 +192,22 @@ new FormModel {
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 				"x": 155
 				"y": 360
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "password"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 155
+				"y": 250
+				"width": 250
+				"height": 45
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordIdent"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 155
+				"y": 305
+				"width": 250
+				"height": 40
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 269, 38 )

@@ -30,7 +30,7 @@ public class DocRegHelp {
     public void writeDocRegModel(Doctor doctor) {
 
 
-        String sqlStr = "insert into Doctors values(?,?,?,?,?,?,?,?,?)";
+        String sqlStr = "insert into Doctors values(?,?,?,?,?,?,?,?,?,?)";
         int ok = 0;
         try {
             presql = cno.prepareStatement(sqlStr);
@@ -43,6 +43,7 @@ public class DocRegHelp {
             presql.setString(7,doctor.getAdress());
             presql.setString(8,doctor.getWorkunit());
             presql.setString(9,doctor.getWorkexperence());
+            presql.setString(10,doctor.getPassword());
 
             ok = presql.executeUpdate();
             cno.close();

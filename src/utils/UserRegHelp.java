@@ -27,7 +27,7 @@ public class UserRegHelp {
     }
 
     public void writeUserRegModel(User user){
-        String sqlStr = "insert into Users values(?,?,?,?,?)";
+        String sqlStr = "insert into Users values(?,?,?,?,?,?)";
 
         int ok = 0;
         try {
@@ -37,6 +37,7 @@ public class UserRegHelp {
             presql.setString(3,user.getUage());
             presql.setString(4,user.getUtel());
             presql.setString(5,user.getUdescribe());
+            presql.setString(6,user.getUpassword());
 
             ok = presql.executeUpdate();
             cno.close();

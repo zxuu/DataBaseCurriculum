@@ -23,21 +23,41 @@ public class MainJFrame extends BaseJFrame{
 
     private void userlogintnActionPerformed(ActionEvent e) {
         // TODO add your code here
-        new UserRegister("医生注册");
+        new UserLogin();
     }
 
     private void docloginbtnActionPerformed(ActionEvent e) {
         // TODO add your code here
+        new DoctorLogin();
+    }
+
+
+    private void docRegiBtn2ActionPerformed(ActionEvent e) {
+        // TODO add your code here
         new DoctorRegister("医生注册");
     }
+
+
+
+    private void userReigsBtnActionPerformed(ActionEvent e) {
+        // TODO add your code here
+        new UserRegister("用户注册");
+    }
+
+    private void userLoginBtnActionPerformed(ActionEvent e) {
+        // TODO add your code here
+    }
+
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
         userlogintn = new JButton();
         docloginbtn = new JButton();
+        userReigsBtn = new JButton();
+        docRegiBtn = new JButton();
 
         //======== this ========
-        Container contentPane = getContainer();
+        Container contentPane = getContentPane();
         contentPane.setLayout(null);
 
         //---- userlogintn ----
@@ -52,6 +72,22 @@ public class MainJFrame extends BaseJFrame{
         contentPane.add(docloginbtn);
         docloginbtn.setBounds(280, 250, 285, 70);
 
+        //---- userReigsBtn ----
+        userReigsBtn.setText("\u7528\u6237\u6ce8\u518c");
+        userReigsBtn.addActionListener(e -> {
+			userLoginBtnActionPerformed(e);
+			userLoginBtnActionPerformed(e);
+			userReigsBtnActionPerformed(e);
+		});
+        contentPane.add(userReigsBtn);
+        userReigsBtn.setBounds(800, 375, 105, userReigsBtn.getPreferredSize().height);
+
+        //---- docRegiBtn ----
+        docRegiBtn.setText("\u533b\u751f\u6ce8\u518c");
+        docRegiBtn.addActionListener(e -> docRegiBtn2ActionPerformed(e));
+        contentPane.add(docRegiBtn);
+        docRegiBtn.setBounds(800, 425, 105, 35);
+
         { // compute preferred size
             Dimension preferredSize = new Dimension();
             for(int i = 0; i < contentPane.getComponentCount(); i++) {
@@ -65,13 +101,15 @@ public class MainJFrame extends BaseJFrame{
             contentPane.setMinimumSize(preferredSize);
             contentPane.setPreferredSize(preferredSize);
         }
-//        pack();
-//        setLocationRelativeTo(getOwner());
+        pack();
+        setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     private JButton userlogintn;
     private JButton docloginbtn;
+    private JButton userReigsBtn;
+    private JButton docRegiBtn;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

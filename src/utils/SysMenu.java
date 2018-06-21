@@ -32,11 +32,11 @@ public class SysMenu extends Menu {
     }
 
     private void Item1ClickResult() {
-        new UserRegister();
+        new UserRegister("用户注册");
     }
 
     private void Item2ClickResult() {
-        new DoctorRegister();
+        new DoctorRegister("医生注册");
     }
 
     public JMenuBar AddMenue() {

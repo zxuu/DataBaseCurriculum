@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class GetDBConnection {
 
-    public static Connection connectDB(String DBName, String user, String password) throws SQLException {
+    public static Connection connectDB(String DBName, String user, String password) {
 
         Connection cno = null;
         String url = "jdbc:sqlserver://10.0.117.67:1433;DatabaseName=" + DBName;

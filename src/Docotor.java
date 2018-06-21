@@ -4,6 +4,8 @@ public class Docotor {
 
     public static void main(String[] args) {
 
+
+
         String user = "sa";
         String password = "1122";
 
@@ -20,5 +22,11 @@ public class Docotor {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        df();
+    }
+
+    private static void df() {
+
     }
 }

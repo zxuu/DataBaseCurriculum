@@ -2,7 +2,22 @@ package model;
 
 public class User {
 
-    String Uname,Usex,Utel,Udescribe,Uage;
+    String Uname;
+    String Usex;
+    String Utel;
+    String Udescribe;
+    String Uage;
+    String Upassword;
+
+    public String getUpassword() {
+        return Upassword;
+    }
+
+    public void setUpassword(String upassword) {
+        Upassword = upassword;
+    }
+
+
 
     public User() {
     }

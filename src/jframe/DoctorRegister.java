@@ -10,7 +10,7 @@ import javax.swing.*;
 public class DoctorRegister extends BaseJFrame{
 
 
-    String name,sex,age,tel,password,birth,ID,adress,workunit,workexperence;
+    String name,sex,age,tel,docpassword,birth,ID,adress,workunit,workexperence;
 
     Doctor doctor;
     DocRegHelp docRegHelp;
@@ -28,23 +28,23 @@ public class DoctorRegister extends BaseJFrame{
         sex = textFieldsex.getText();
         age = textFieldage.getText();
         tel = textFieldtel.getText();
-        password = textFieldtelpassw.getText();
         birth = textFieldbirth.getText();
         ID = textFieldID.getText();
         adress = textFieldadress.getText();
         workunit = textFieldworklo.getText();
         workexperence = textAreaworkep.getText();
+        docpassword = new String(password.getPassword());
 
         doctor.setName(name);
         doctor.setSex(sex);
         doctor.setAge(age);
         doctor.setTel(tel);
         doctor.setBirth(birth);
-        doctor.setPassword(password);
         doctor.setID(ID);
         doctor.setAdress(adress);
         doctor.setWorkunit(workunit);
         doctor.setWorkexperence(workexperence);
+        doctor.setPassword(docpassword);
 
         docRegHelp = new DocRegHelp();
         docRegHelp.writeDocRegModel(doctor);
@@ -74,13 +74,13 @@ public class DoctorRegister extends BaseJFrame{
         label8 = new JLabel();
         buttonregi = new JButton();
         labelpassword = new JLabel();
-        textFieldtelpassw = new JTextField();
-        textFieldteldienpassw = new JTextField();
         label9 = new JLabel();
         comboBox1 = new JComboBox<>();
+        password = new JPasswordField();
+        passwordIdent = new JPasswordField();
 
         //======== this ========
-        Container contentPane = getContainer();
+        Container contentPane = getContentPane();
         contentPane.setLayout(null);
         contentPane.add(textField1name);
         textField1name.setBounds(155, 30, 250, 45);
@@ -161,10 +161,6 @@ public class DoctorRegister extends BaseJFrame{
         labelpassword.setText("\u5bc6\u7801");
         contentPane.add(labelpassword);
         labelpassword.setBounds(new Rectangle(new Point(105, 265), labelpassword.getPreferredSize()));
-        contentPane.add(textFieldtelpassw);
-        textFieldtelpassw.setBounds(155, 250, 250, 45);
-        contentPane.add(textFieldteldienpassw);
-        textFieldteldienpassw.setBounds(155, 305, 250, 45);
 
         //---- label9 ----
         label9.setText("\u786e\u8ba4\u5bc6\u7801");
@@ -178,6 +174,10 @@ public class DoctorRegister extends BaseJFrame{
         }));
         contentPane.add(comboBox1);
         comboBox1.setBounds(new Rectangle(new Point(155, 360), comboBox1.getPreferredSize()));
+        contentPane.add(password);
+        password.setBounds(155, 250, 250, 45);
+        contentPane.add(passwordIdent);
+        passwordIdent.setBounds(155, 305, 250, 40);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();
@@ -220,9 +220,9 @@ public class DoctorRegister extends BaseJFrame{
     private JLabel label8;
     private JButton buttonregi;
     private JLabel labelpassword;
-    private JTextField textFieldtelpassw;
-    private JTextField textFieldteldienpassw;
     private JLabel label9;
     private JComboBox<String> comboBox1;
+    private JPasswordField password;
+    private JPasswordField passwordIdent;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

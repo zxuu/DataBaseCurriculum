@@ -37,6 +37,7 @@ public class UserRegister extends BaseJFrame{
         user.setUage(uageText.getText());
         user.setUtel(utelText.getText());
         user.setUdescribe(textArea1.getText());
+        user.setUpassword(new String(password.getPassword()));
         userRegHelp = new UserRegHelp();
         userRegHelp.writeUserRegModel(user);
     }
@@ -55,9 +56,13 @@ public class UserRegister extends BaseJFrame{
         label4 = new JLabel();
         label5 = new JLabel();
         button1 = new JButton();
+        password = new JPasswordField();
+        label6 = new JLabel();
+        label7 = new JLabel();
+        passwordIdent = new JPasswordField();
 
         //======== this ========
-        Container contentPane = getContainer();
+        Container contentPane = getContentPane();
         contentPane.setLayout(null);
         contentPane.add(unameText);
         unameText.setBounds(205, 65, 220, 45);
@@ -73,7 +78,7 @@ public class UserRegister extends BaseJFrame{
             scrollPane1.setViewportView(textArea1);
         }
         contentPane.add(scrollPane1);
-        scrollPane1.setBounds(205, 275, 295, 185);
+        scrollPane1.setBounds(205, 365, 295, 95);
 
         //---- label1 ----
         label1.setText("\u59d3\u540d");
@@ -98,13 +103,27 @@ public class UserRegister extends BaseJFrame{
         //---- label5 ----
         label5.setText("\u9700\u6c42\u63cf\u8ff0");
         contentPane.add(label5);
-        label5.setBounds(130, 305, 60, 20);
+        label5.setBounds(130, 380, 60, 20);
 
         //---- button1 ----
         button1.setText("\u6ce8\u518c");
         button1.addActionListener(e -> userbuttonActionPerformed(e));
         contentPane.add(button1);
         button1.setBounds(200, 525, 155, 45);
+        contentPane.add(password);
+        password.setBounds(205, 265, 220, 40);
+
+        //---- label6 ----
+        label6.setText("\u5bc6\u7801");
+        contentPane.add(label6);
+        label6.setBounds(new Rectangle(new Point(165, 275), label6.getPreferredSize()));
+
+        //---- label7 ----
+        label7.setText("\u786e\u8ba4\u5bc6\u7801");
+        contentPane.add(label7);
+        label7.setBounds(new Rectangle(new Point(135, 330), label7.getPreferredSize()));
+        contentPane.add(passwordIdent);
+        passwordIdent.setBounds(205, 315, 220, 43);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();
@@ -119,8 +138,8 @@ public class UserRegister extends BaseJFrame{
             contentPane.setMinimumSize(preferredSize);
             contentPane.setPreferredSize(preferredSize);
         }
-//        pack();
-//        setLocationRelativeTo(getOwner());
+        pack();
+        setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
@@ -137,5 +156,9 @@ public class UserRegister extends BaseJFrame{
     private JLabel label4;
     private JLabel label5;
     private JButton button1;
+    private JPasswordField password;
+    private JLabel label6;
+    private JLabel label7;
+    private JPasswordField passwordIdent;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }
