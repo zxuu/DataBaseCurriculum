@@ -69,9 +69,7 @@ public class UserLogin extends BaseJFrame {
         }
 
         if (state == 0) {
-//            JOptionPane.showMessageDialog(null,"您还没有注册！","警告",
-//                    JOptionPane.WARNING_MESSAGE);
-            int op = JOptionPane.showConfirmDialog(null,"您还没有注册!","警告",JOptionPane.ERROR_MESSAGE);
+            int op = JOptionPane.showConfirmDialog(null,"您还没有注册!确认要注册？","警告",JOptionPane.ERROR_MESSAGE);
             if (op == JOptionPane.YES_OPTION) {
                 new UserRegister("用户注册");
             }
