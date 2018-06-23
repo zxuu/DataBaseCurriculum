@@ -13,7 +13,6 @@ import javax.swing.*;
  * @author we
  */
 public class UserLogin extends BaseJFrame {
-
     Connection con;
     Statement sql;
 

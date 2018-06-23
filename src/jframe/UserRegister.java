@@ -4,7 +4,7 @@
 
 package jframe;
 
-import model.User;
+import model.Users;
 import utils.UserRegHelp;
 
 import java.awt.*;
@@ -18,28 +18,27 @@ public class UserRegister extends BaseJFrame{
 
 
 
-    User user;
+    Users users;
     UserRegHelp userRegHelp;
 
-//    String Uname,Usex,Uage,Utel,Udescribe;
 
     public UserRegister(String jframeTitle) {
         super(jframeTitle);
-        user = new User();
+        users = new Users();
         setFrame(100,100,540,1040);
         initComponents();
     }
 
     private void userbuttonActionPerformed(ActionEvent e) {
         // TODO add your code here
-        user.setUname(unameText.getText());
-        user.setUsex(usexText.getText());
-        user.setUage(uageText.getText());
-        user.setUtel(utelText.getText());
-        user.setUdescribe(textArea1.getText());
-        user.setUpassword(new String(password.getPassword()));
+        users.setUname(unameText.getText());
+        users.setUsex(usexText.getText());
+        users.setUage(uageText.getText());
+        users.setUtel(utelText.getText());
+        users.setUdescribe(textArea1.getText());
+        users.setUpassword(new String(password.getPassword()));
         userRegHelp = new UserRegHelp();
-        userRegHelp.writeUserRegModel(user);
+        userRegHelp.writeUserRegModel(users);
     }
 
     private void initComponents() {

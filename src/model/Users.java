@@ -1,12 +1,14 @@
 package model;
 
-public class User {
+import utils.JDBCObject;
+
+public class Users extends JDBCObject{
 
     String Uname;
     String Usex;
+    String Uage;
     String Utel;
     String Udescribe;
-    String Uage;
     String Upassword;
 
     public String getUpassword() {
@@ -19,7 +21,7 @@ public class User {
 
 
 
-    public User() {
+    public Users() {
     }
 
     public String getUname() {

@@ -1,7 +1,7 @@
 package jframe;
 
+import model.Doctors;
 import utils.DocRegHelp;
-import model.Doctor;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -12,12 +12,12 @@ public class DoctorRegister extends BaseJFrame{
 
     String name,sex,age,tel,docpassword,birth,ID,adress,workunit,workexperence;
 
-    Doctor doctor;
+    Doctors doctors;
     DocRegHelp docRegHelp;
 
     public DoctorRegister(String jframetitle) {
         super(jframetitle);
-        doctor = new Doctor();
+        doctors = new Doctors();
         setFrame(100,100,540,1040);
         initComponents();
     }
@@ -35,19 +35,19 @@ public class DoctorRegister extends BaseJFrame{
         workexperence = textAreaworkep.getText();
         docpassword = new String(password.getPassword());
 
-        doctor.setName(name);
-        doctor.setSex(sex);
-        doctor.setAge(age);
-        doctor.setTel(tel);
-        doctor.setBirth(birth);
-        doctor.setID(ID);
-        doctor.setAdress(adress);
-        doctor.setWorkunit(workunit);
-        doctor.setWorkexperence(workexperence);
-        doctor.setPassword(docpassword);
+        doctors.setDname(name);
+        doctors.setDsex(sex);
+        doctors.setDage(age);
+        doctors.setDtel(tel);
+        doctors.setDbirth(birth);
+        doctors.setDID(ID);
+        doctors.setDadress(adress);
+        doctors.setDworkunit(workunit);
+        doctors.setDworkexp(workexperence);
+        doctors.setDpassword(docpassword);
 
         docRegHelp = new DocRegHelp();
-        docRegHelp.writeDocRegModel(doctor);
+        docRegHelp.writeDocRegModel(doctors);
 
     }
 
