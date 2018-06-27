@@ -16,9 +16,8 @@ public class DoctorRegister extends BaseJFrame{
     DocRegHelp docRegHelp;
 
     public DoctorRegister(String jframetitle) {
-        super(jframetitle);
+        super(jframetitle,100,100,540,1040);
         doctors = new Doctors();
-        setFrame(100,100,540,1040);
         initComponents();
     }
 

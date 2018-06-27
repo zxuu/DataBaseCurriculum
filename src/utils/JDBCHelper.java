@@ -43,7 +43,7 @@ public class JDBCHelper {
     private void initJdbc() {
         try {
             Class.forName(JDBCSetting.DRIVER);
-            System.out.println("数据库连接成功");
+//            System.out.println("数据库连接成功");
             connection = DriverManager.getConnection(JDBCSetting.URL, JDBCSetting.USERNAME, JDBCSetting.PASSWORD);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -173,7 +173,7 @@ public class JDBCHelper {
             }
         }
 
-        if ((!sql.equals("")) && sql != "") {
+        if (!sql.equals("") && sql != "") {//!sql.equals("")) && sql != ""
             sql = sql.substring(0, sql.length() - 4);
             String table = condition.getClass().getName();
             sql = "select * from " + table.substring(table.lastIndexOf(".") + 1, table.length())
@@ -182,12 +182,13 @@ public class JDBCHelper {
         }
 
 
-        List<T> list = new ArrayList<T>();
+        List<T> list = new ArrayList<>();
         int index = 1;
         pstmt = connection.prepareStatement(sql);
-        if (params != null && !params.isEmpty()) {
+        if (params != null && !params.isEmpty()) {//&& !params.isEmpty()
             for (int i = 0; i < params.size(); i++) {
                 pstmt.setObject(index++, params.get(i));
+
             }
         }
         resultSet = pstmt.executeQuery();
@@ -208,6 +209,7 @@ public class JDBCHelper {
             }
             list.add(resultObject);
         }
+
         return list;
     }
 

@@ -16,8 +16,7 @@ public class MainJFrame extends BaseJFrame{
 
 
     public MainJFrame(String jframeTitle) {
-        super(jframeTitle);
-        setFrame(100,100,840,840);
+        super(jframeTitle,100,100,840,840);
         initComponents();
     }
 

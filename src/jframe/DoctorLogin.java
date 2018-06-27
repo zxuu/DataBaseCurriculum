@@ -4,6 +4,8 @@
 
 package jframe;
 
+import utils.JDBCSetting;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
@@ -20,11 +22,11 @@ public class DoctorLogin extends BaseJFrame {
 
     String docTelph;
     String doctorPassword;
-    String url = "jdbc:sqlserver://10.0.117.67:1433;DatabaseName=DPDB";
 
     public DoctorLogin() {
-        super("医生登陆");
-        setFrame(150,150,1200,520);
+        super("医生登陆",150,150,1200,520);
+        JDBCSetting.loadDriver();
+        con = JDBCSetting.getConnection();
         initComponents();
     }
 
@@ -33,18 +35,6 @@ public class DoctorLogin extends BaseJFrame {
         int state = 0;
         docTelph = docTel.getText();
         doctorPassword = new String(docLoginPassword.getPassword());
-
-        try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        } catch (ClassNotFoundException ec) {
-            System.out.println("加载驱动失败");
-        }
-
-        try {
-            con = DriverManager.getConnection(url, "sa","1122");
-        } catch (SQLException e1) {
-            System.out.println(e1 + "登陆失败");
-        }
 
         try {
             sql = con.createStatement();

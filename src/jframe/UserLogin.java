@@ -4,6 +4,8 @@
 
 package jframe;
 
+import utils.JDBCSetting;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
@@ -18,11 +20,11 @@ public class UserLogin extends BaseJFrame {
 
     String userTel;
     String userPassword;
-    String url = "jdbc:sqlserver://10.0.117.67:1433;DatabaseName=DPDB";
 
     public UserLogin() {
-        super("用户登陆");
-        setFrame(150,150,1200,520);
+        super("用户登陆",150,150,1200,520);
+        JDBCSetting.loadDriver();
+        con = JDBCSetting.getConnection();
         initComponents();
     }
 
@@ -32,17 +34,6 @@ public class UserLogin extends BaseJFrame {
         userTel = tel.getText();
         userPassword = new String(password.getPassword());
 
-        try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        } catch (ClassNotFoundException ec) {
-            System.out.println("加载驱动失败");
-        }
-
-        try {
-            con = DriverManager.getConnection(url, "sa","1122");
-        } catch (SQLException e1) {
-            System.out.println(e1 + "登陆失败");
-        }
 
         try {
             sql = con.createStatement();
@@ -54,6 +45,7 @@ public class UserLogin extends BaseJFrame {
                     if (dataUserPas.equals(userPassword)) {
                         //登陆成功后
                         System.out.println("userLoginSuccess!");
+                        new UserJFrame();
                     } else {
                         JOptionPane.showMessageDialog(null,"密码错误！" +
                                 "请重新登陆","提示",JOptionPane.PLAIN_MESSAGE);

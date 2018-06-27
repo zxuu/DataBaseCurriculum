@@ -53,6 +53,7 @@ public class JDBCObject {
             if (resultList != null) {
                 listener.onSucceed(resultList);
             } else {
+                System.out.println("result is null");
                 listener.onFailed(new Exception("query failed!"));
             }
         } catch (Exception e) {

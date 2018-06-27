@@ -1,11 +1,12 @@
 package jframe;
 
 import utils.BackImg;
+import utils.OnClickListener;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class BaseJFrame extends JFrame {
+public class BaseJFrame extends JFrame{
 
     BackImg backImg;
 
@@ -18,10 +19,14 @@ public class BaseJFrame extends JFrame {
         container = this.getContentPane();
     }
 
-    public void setFrame(int winX,int winY,int width,int height){
-//        backImg.setBounds(0,0,width,height);
-        this.setBounds(winX,winY,width,height);
+    public BaseJFrame(String jframeTitle, int winX, int winY, int width, int height) {
+        super(jframeTitle);
+        super.setVisible(true);
+        super.setBounds(winX,winY,width,height);
+        super.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        container = super.getContentPane();
     }
+
 
     public void setBackImage(String location) {
         backImg = new BackImg(location);
@@ -29,7 +34,7 @@ public class BaseJFrame extends JFrame {
     }
 
 //    public void setMenuBar() {
-//        windows.setJMenuBar(sysMenu.AddMenue());
+//        this.setJMenuBar(sysMenu.AddMenue());
 //    }
 
     public Container getContainer(){
@@ -39,4 +44,5 @@ public class BaseJFrame extends JFrame {
     public JFrame getJFrame() {
         return this;
     }
+
 }

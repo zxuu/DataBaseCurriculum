@@ -23,9 +23,8 @@ public class UserRegister extends BaseJFrame{
 
 
     public UserRegister(String jframeTitle) {
-        super(jframeTitle);
+        super(jframeTitle,100,100,540,1040);
         users = new Users();
-        setFrame(100,100,540,1040);
         initComponents();
     }
 
