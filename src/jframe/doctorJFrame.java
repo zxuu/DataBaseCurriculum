@@ -1,35 +1,27 @@
-/*
- * Created by JFormDesigner on Sat Jun 23 13:25:55 CST 2018
- */
-
 package jframe;
 
-
+import bean.DocJpane;
 import bean.userJpane;
 import utils.JDBCSetting;
 import utils.SysMenu;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author we
- */
-public class UserJFrame extends BaseJFrame{
+public class doctorJFrame extends BaseJFrame {
 
     List<JMenu> jMenuList = new ArrayList<>();
     SysMenu sysMenu;
 
-    public UserJFrame() {
-        super("用户界面",50,50,1000,1000);
+    public doctorJFrame() {
+        super("医生界面",50,50,1000,1000);
 
         sysMenu = new SysMenu(new JMenu("w"), new JMenu("c"));
         jMenuList = sysMenu.getjMenuList();
@@ -60,7 +52,8 @@ public class UserJFrame extends BaseJFrame{
     }
 
     private void alterInfo() {
-        new AlterUserInfo("修改用户信息");
+//        new AlterUserInfo("修改用户信息");
+        new AlterDocInfo("修改医生信息");
     }
 
     public void iniTable() {
@@ -85,7 +78,8 @@ public class UserJFrame extends BaseJFrame{
 //        table.setSize(1500,1500);
 //        add(table);
 //        this.getContentPane().add(new userJpane());
-        setContentPane(new userJpane());
+//        setContentPane(new userJpane());
+        setContentPane(new DocJpane());
     }
 
 
@@ -116,4 +110,5 @@ public class UserJFrame extends BaseJFrame{
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     // JFormDesigner - End of variables declaration  //GEN-END:variables
+
 }

@@ -12,6 +12,7 @@ public class JDBCObject {
             } else {
                 listener.onFailed(new Exception("save failed!"));
             }
+            helper.releaseConn();
         } catch (Exception e) {
             listener.onFailed(e);
         }
@@ -26,6 +27,7 @@ public class JDBCObject {
             } else {
                 listener.onFailed(new Exception("delete failed!"));
             }
+            helper.releaseConn();
         } catch (Exception e) {
             listener.onFailed(e);
         }
@@ -40,6 +42,7 @@ public class JDBCObject {
             } else {
                 listener.onFailed(new Exception("update failed!"));
             }
+            helper.releaseConn();
         } catch (Exception e) {
             listener.onFailed(e);
         }
@@ -56,6 +59,7 @@ public class JDBCObject {
                 System.out.println("result is null");
                 listener.onFailed(new Exception("query failed!"));
             }
+            helper.releaseConn();
         } catch (Exception e) {
             listener.onFailed(e);
         }

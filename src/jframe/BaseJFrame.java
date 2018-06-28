@@ -1,7 +1,6 @@
 package jframe;
 
 import utils.BackImg;
-import utils.OnClickListener;
 
 import javax.swing.*;
 import java.awt.*;

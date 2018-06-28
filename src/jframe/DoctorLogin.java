@@ -26,7 +26,6 @@ public class DoctorLogin extends BaseJFrame {
     public DoctorLogin() {
         super("医生登陆",150,150,1200,520);
         JDBCSetting.loadDriver();
-        con = JDBCSetting.getConnection();
         initComponents();
     }
 
@@ -37,6 +36,7 @@ public class DoctorLogin extends BaseJFrame {
         doctorPassword = new String(docLoginPassword.getPassword());
 
         try {
+            con = JDBCSetting.getConnection();
             sql = con.createStatement();
             ResultSet rs = sql.executeQuery("SELECT Dtel,Dpassword FROM Doctors");
             while (rs.next()) {
@@ -46,6 +46,9 @@ public class DoctorLogin extends BaseJFrame {
                     if (dataDocPas.equals(doctorPassword)) {
                         //登陆成功后
                         System.out.println("doctorLoginSuccess!");
+                        Aplication.drow = rs.getRow();
+                        System.out.println("getRow == " + Aplication.drow);
+                        new doctorJFrame();
                     } else {
                         JOptionPane.showMessageDialog(null,"密码错误！" +
                                 "请重新登陆","提示",JOptionPane.PLAIN_MESSAGE);

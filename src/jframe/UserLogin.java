@@ -15,6 +15,7 @@ import javax.swing.*;
  * @author we
  */
 public class UserLogin extends BaseJFrame {
+
     Connection con;
     Statement sql;
 
@@ -34,6 +35,8 @@ public class UserLogin extends BaseJFrame {
         userTel = tel.getText();
         userPassword = new String(password.getPassword());
 
+        Aplication.tel = userTel;
+        Aplication.password = userPassword;
 
         try {
             sql = con.createStatement();
@@ -43,6 +46,7 @@ public class UserLogin extends BaseJFrame {
                 if (Utel.equals(userTel)) {
                     String dataUserPas = rs.getString(2);
                     if (dataUserPas.equals(userPassword)) {
+                        Aplication.row = rs.getRow();
                         //登陆成功后
                         System.out.println("userLoginSuccess!");
                         new UserJFrame();

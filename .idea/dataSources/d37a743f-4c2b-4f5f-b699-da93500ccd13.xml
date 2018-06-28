@@ -23,7 +23,7 @@
     </database>
     <schema id="7" parent="6" name="dbo">
       <ObjectId>1</ObjectId>
-      <IntrospectionTimestamp>2018-06-27.16:15:07.980</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-06-28.20:55:52.873</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>

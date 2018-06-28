@@ -11,9 +11,5 @@
     <orderEntry type="library" name="Beans Binding" level="project" />
     <orderEntry type="library" name="sqljdbc42" level="project" />
     <orderEntry type="library" name="src" level="project" />
-    <orderEntry type="library" name="src (2)" level="project" />
-    <orderEntry type="library" name="src (3)" level="project" />
-    <orderEntry type="library" name="src (4)" level="project" />
-    <orderEntry type="library" name="src (5)" level="project" />
   </component>
 </module>
