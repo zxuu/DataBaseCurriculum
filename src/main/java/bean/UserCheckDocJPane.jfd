@@ -1,0 +1,152 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "province"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "省"
+					addElement( "省" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 80
+				"y": 140
+				"width": 175
+				"height": 70
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "city"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "市"
+					addElement( "市" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "cityItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 175
+				"height": 70
+				"x": 265
+				"y": 140
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "county"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "区/县"
+					addElement( "区/县" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "countyItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "countyItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 175
+				"height": 70
+				"x": 445
+				"y": 140
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "sex"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "性别"
+					addElement( "性别" )
+					addElement( "男" )
+					addElement( "女" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "sexItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 175
+				"height": 70
+				"x": 80
+				"y": 230
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "age"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "年龄"
+					addElement( "年龄" )
+					addElement( "18" )
+					addElement( "19" )
+					addElement( "20" )
+					addElement( "21" )
+					addElement( "22" )
+					addElement( "23" )
+					addElement( "24" )
+					addElement( "25" )
+					addElement( "26" )
+					addElement( "27" )
+					addElement( "28" )
+					addElement( "29" )
+					addElement( "30" )
+					addElement( "31" )
+					addElement( "32" )
+					addElement( "33" )
+					addElement( "34" )
+					addElement( "35" )
+					addElement( "36" )
+					addElement( "37" )
+					addElement( "38" )
+					addElement( "39" )
+					addElement( "40" )
+					addElement( "41" )
+					addElement( "42" )
+					addElement( "43" )
+					addElement( "44" )
+					addElement( "45" )
+					addElement( "46" )
+					addElement( "47" )
+					addElement( "48" )
+					addElement( "49" )
+					addElement( "50" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "ageItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 175
+				"height": 70
+				"x": 265
+				"y": 230
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "score"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "分数"
+					addElement( "分数" )
+					addElement( "1" )
+					addElement( "2" )
+					addElement( "3" )
+					addElement( "4" )
+					addElement( "5" )
+					addElement( "6" )
+					addElement( "7" )
+					addElement( "8" )
+					addElement( "9" )
+					addElement( "10" )
+				}
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "provinceItemStateChanged", true ) )
+				addEvent( new FormEvent( "java.awt.event.ItemListener", "itemStateChanged", "scoreItemStateChanged", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 175
+				"height": 70
+				"x": 445
+				"y": 230
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "startCheck"
+				"text": "开始查找"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "startCheckActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 195
+				"y": 380
+				"width": 250
+				"height": 75
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 931, 571 )
+		} )
+	}
+}
