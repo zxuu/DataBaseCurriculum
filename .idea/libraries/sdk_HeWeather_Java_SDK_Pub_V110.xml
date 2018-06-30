@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sdk_HeWeather_Java_SDK_Pub_V110">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/sdk_HeWeather_Java_SDK_Pub_V110.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
