@@ -2,65 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="332a1821-0549-4f3a-ae62-f19d58b6f590" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_3_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_3_10_0__2_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_9_0__2_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_json.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_json__2_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sdk_HeWeather_Java_SDK_Pub_V110.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Login/HandelInsertData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Login/HandelLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Login/Login.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Login/Register.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Login/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SysView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bean/DocJpane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bean/userJpane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bean/userJpane.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/AlterDocInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/AlterUserInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/Aplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/BaseJFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/DoctorLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/DoctorLogin.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/DoctorRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/DoctorRegister.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/MainJFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/MainJFrame.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserJFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserJFrame.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserLogin.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/UserRegister.jfd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jframe/doctorJFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Doctors.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/Users.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/BackImg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/DocRegHelp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/JDBCDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/JDBCHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/JDBCObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/JDBCSetting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/SysMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/UserRegHelp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/getResultSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/utils/resultSetHelp.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d37a743f-4c2b-4f5f-b699-da93500ccd13.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataTest.iml" afterPath="$PROJECT_DIR$/DataTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../ad/target/" />
@@ -115,80 +59,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="df.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ad/src/main/java/df.java">
+      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/HttpUtil.java">
+      <file leaf-file-name="DoctorRegister.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="390" column="5" lean-forward="true" selection-start-line="390" selection-start-column="5" selection-end-line="390" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#2523#2560#0" expanded="false" />
+                <element signature="method#buttonregiActionPerformed#0;class#DoctorRegister#0" expanded="false" />
+                <element signature="e#5152#5153#0" expanded="true" />
+                <element signature="e#5230#5231#0" expanded="true" />
+                <element signature="method#initComponents#0;class#DoctorRegister#0" expanded="false" />
+                <marker date="1530331779107" expanded="true" signature="8264:14660" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1530331779107" expanded="true" signature="14673:15756" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="DocRegHelp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DocRegHelp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfdf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ad/src/main/java/dfdf.java">
+      <file leaf-file-name="Doctors.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Doctors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="160">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#396#1340#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ad/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="DoctorRegister.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state paletteWidth="150" propertiesWidth="581" structureHeight="312" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SysView.java">
+      <file leaf-file-name="AddressHelp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/AddressHelp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doctorJFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jframe/doctorJFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1640">
-              <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state relative-caret-position="640">
+              <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
               <folding>
-                <element signature="e#1599#1668#0" expanded="false" />
-                <element signature="method#initComponents#0;class#doctorJFrame#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#397#0" expanded="true" />
+                <element signature="e#921#929#0" expanded="true" />
+                <element signature="e#6729#6737#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,11 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GetDBConnection.java" />
-        <option value="$PROJECT_DIR$/src/DocoterSys/SysView.java" />
-        <option value="src:table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Users" />
-        <option value="$PROJECT_DIR$/src/jframe/UserRegister.jfd" />
-        <option value="$PROJECT_DIR$/src/jframe/UserLogin.jfd" />
         <option value="$PROJECT_DIR$/src/jframe/DoctorLogin.jfd" />
         <option value="$PROJECT_DIR$/src/Login/HandelInsertData.java" />
         <option value="$PROJECT_DIR$/src/utils/JDBCDao.java" />
@@ -280,6 +226,11 @@
         <option value="$PROJECT_DIR$/src/utils/HttpUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/AddressHelp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Doctors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.java" />
       </list>
     </option>
   </component>
@@ -353,6 +304,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jframe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataTest" type="b2602c69:ProjectViewProjectNode" />
@@ -666,7 +625,7 @@
       <workItem from="1530240119413" duration="14650000" />
       <workItem from="1530272895503" duration="8060000" />
       <workItem from="1530321429717" duration="131000" />
-      <workItem from="1530322278262" duration="918000" />
+      <workItem from="1530322278262" duration="9475000" />
     </task>
     <task id="LOCAL-00001" summary="18.6.20.15:16">
       <created>1529479034787</created>
@@ -745,14 +704,22 @@
       <option name="project" value="LOCAL" />
       <updated>1530195463926</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="查询省成功">
+      <created>1530323257745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530323257745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204888000" />
+    <option name="totallyTimeSpent" value="213445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="2578" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1382" y="184" width="508" height="700" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -762,13 +729,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2014218" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5695103" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41311216" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13554688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15117188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -804,7 +771,8 @@
     <MESSAGE value="重构一下" />
     <MESSAGE value="谢特，解决了数据类型问题导致查不出来" />
     <MESSAGE value="用户医生查看与修改信息成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户医生查看与修改信息成功" />
+    <MESSAGE value="查询省成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询省成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,32 +781,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/userJpane.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="150" propertiesWidth="312" structureHeight="312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/AlterDocInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/resultSetHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean/userJpane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -866,18 +808,6 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/json-lib-2.4-jdk15.jar!/net/sf/json/JSONArray.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="150" propertiesWidth="581" structureHeight="312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/AddressHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -885,24 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2218">
-          <caret line="141" column="7" lean-forward="true" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/okhttp-3.10.0.jar!/okhttp3/internal/http1/Http1Codec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -957,13 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Doctors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1108,40 +1017,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="74" column="55" lean-forward="true" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/doctorJFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding>
-            <element signature="e#1599#1668#0" expanded="false" />
-            <element signature="method#initComponents#0;class#doctorJFrame#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ad/src/main/java/dfdf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#1340#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#396#1340#0" expanded="false" />
+            <element signature="e#1339#1340#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ad/pom.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SysView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1154,6 +1056,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ad/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="890">
@@ -1162,21 +1072,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/doctorJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding>
+            <element signature="e#1599#1668#0" expanded="false" />
+            <element signature="method#initComponents#0;class#doctorJFrame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="598" column="18" lean-forward="false" selection-start-line="598" selection-start-column="18" selection-end-line="598" selection-end-column="18" />
+          <folding>
+            <element signature="e#20050#20051#0" expanded="true" />
+            <element signature="e#20100#20101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="211" column="22" lean-forward="true" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="320">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SysView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/AddressHelp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="640">
+          <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#397#0" expanded="true" />
+            <element signature="e#921#929#0" expanded="true" />
+            <element signature="e#6729#6737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="150" propertiesWidth="581" structureHeight="312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Doctors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DocRegHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Doctors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jframe/DoctorRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="390" column="5" lean-forward="true" selection-start-line="390" selection-start-column="5" selection-end-line="390" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#2523#2560#0" expanded="false" />
+            <element signature="method#buttonregiActionPerformed#0;class#DoctorRegister#0" expanded="false" />
+            <element signature="e#5152#5153#0" expanded="true" />
+            <element signature="e#5230#5231#0" expanded="true" />
+            <element signature="method#initComponents#0;class#DoctorRegister#0" expanded="false" />
+            <marker date="1530331779107" expanded="true" signature="8264:14660" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1530331779107" expanded="true" signature="14673:15756" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
         </state>
       </provider>
     </entry>
