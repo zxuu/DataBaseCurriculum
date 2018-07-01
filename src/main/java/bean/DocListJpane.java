@@ -55,7 +55,6 @@ public class DocListJpane extends JPanel {
         button1.addActionListener(e -> button1ActionPerformed(e));
         add(button1);
         button1.setBounds(825, 40, 150, 55);
-        table1 = new JTable(doctorIfo,colum);
         add(table1);
         table1.setBounds(5, 55, 815, 50);
 
