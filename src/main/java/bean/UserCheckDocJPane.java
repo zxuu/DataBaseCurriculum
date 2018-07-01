@@ -233,7 +233,6 @@ public class UserCheckDocJPane extends JPanel {
         province.setModel(new DefaultComboBoxModel<>(new String[] {
             "\u7701"
         }));
-        province.addItemListener(e -> provinceItemStateChanged(e));
         add(province);
         province.setBounds(80, 140, 175, 70);
 
@@ -241,10 +240,6 @@ public class UserCheckDocJPane extends JPanel {
         city.setModel(new DefaultComboBoxModel<>(new String[] {
             "\u5e02"
         }));
-        city.addItemListener(e -> {
-			provinceItemStateChanged(e);
-			cityItemStateChanged(e);
-		});
         add(city);
         city.setBounds(265, 140, 175, 70);
 
@@ -252,11 +247,6 @@ public class UserCheckDocJPane extends JPanel {
         county.setModel(new DefaultComboBoxModel<>(new String[] {
             "\u533a/\u53bf"
         }));
-        county.addItemListener(e -> {
-			provinceItemStateChanged(e);
-			countyItemStateChanged(e);
-			countyItemStateChanged(e);
-		});
         add(county);
         county.setBounds(445, 140, 175, 70);
 
@@ -267,7 +257,7 @@ public class UserCheckDocJPane extends JPanel {
             "\u5973"
         }));
         sex.addItemListener(e -> {
-			provinceItemStateChanged(e);
+//			provinceItemStateChanged(e);
 			sexItemStateChanged(e);
 		});
         add(sex);
@@ -311,7 +301,7 @@ public class UserCheckDocJPane extends JPanel {
             "50"
         }));
         age.addItemListener(e -> {
-			provinceItemStateChanged(e);
+//			provinceItemStateChanged(e);
 			ageItemStateChanged(e);
 		});
         add(age);
@@ -332,7 +322,7 @@ public class UserCheckDocJPane extends JPanel {
             "10"
         }));
         score.addItemListener(e -> {
-			provinceItemStateChanged(e);
+//			provinceItemStateChanged(e);
 			scoreItemStateChanged(e);
 		});
         add(score);

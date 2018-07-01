@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="332a1821-0549-4f3a-ae62-f19d58b6f590" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bean/DocListJpane.java" afterPath="$PROJECT_DIR$/src/main/java/bean/DocListJpane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jframe/test.java" afterPath="$PROJECT_DIR$/src/main/java/jframe/test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java" afterPath="$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../ad/target/" />
@@ -105,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocListJpane.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DocListJpane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bean/DocListJpane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <marker date="1530440768802" expanded="true" signature="1140:2373" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
                 <marker date="1530440768802" expanded="true" signature="2385:2593" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
@@ -118,19 +117,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCheckDocJPane.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserCheckDocJPane.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="72" column="72" lean-forward="true" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+            <state relative-caret-position="643">
+              <caret line="191" column="58" lean-forward="true" selection-start-line="191" selection-start-column="58" selection-end-line="191" selection-end-column="58" />
               <folding>
-                <element signature="method#sexItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-                <element signature="method#ageItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-                <element signature="method#scoreItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-                <element signature="method#initComponents#0;class#UserCheckDocJPane#0" expanded="false" />
-                <marker date="1530354715362" expanded="true" signature="7674:11622" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1530354715362" expanded="true" signature="11634:12039" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <element signature="method#UserCheckDocJPane#0;class#UserCheckDocJPane#0" expanded="false" />
+                <element signature="method#getProvinces#0;class#UserCheckDocJPane#0" expanded="false" />
+                <element signature="method#provinceItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
+                <element signature="method#countyItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
+                <marker date="1530442164467" expanded="true" signature="7674:11322" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1530442164467" expanded="true" signature="11334:11739" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Doctors" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Doctors">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -230,9 +238,9 @@
         <option value="$PROJECT_DIR$/src/main/java/jframe/UserJFrame.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.jfd" />
         <option value="$PROJECT_DIR$/src/main/java/jframe/UserJFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/DocListJpane.java" />
         <option value="$PROJECT_DIR$/src/main/java/jframe/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java" />
       </list>
     </option>
   </component>
@@ -322,6 +330,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jframe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataTest" type="b2602c69:ProjectViewProjectNode" />
@@ -646,7 +662,7 @@
       <workItem from="1530322278262" duration="9739000" />
       <workItem from="1530341801742" duration="11822000" />
       <workItem from="1530436293443" duration="1550000" />
-      <workItem from="1530440682994" duration="511000" />
+      <workItem from="1530440682994" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="18.6.20.15:16">
       <created>1529479034787</created>
@@ -746,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530355180863</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="封装Jlist2">
+      <created>1530441226467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530441226467</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227592000" />
+    <option name="totallyTimeSpent" value="228596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="2578" height="1408" extended-state="6" />
@@ -764,7 +787,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2014218" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15876777" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16982622" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -809,7 +832,8 @@
     <MESSAGE value="查询省成功" />
     <MESSAGE value="医生籍贯下拉菜单三级联动" />
     <MESSAGE value="封装Jlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装Jlist" />
+    <MESSAGE value="封装Jlist2" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装Jlist2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,7 +842,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/okio-1.9.0.jar!/okio/RealBufferedSource.class" />
     <entry file="jar://$PROJECT_DIR$/lib/okhttp-3.10.0.jar!/okhttp3/internal/http/RetryAndFollowUpInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1166,18 +1189,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java">
+    <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/DocListJpane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="72" column="72" lean-forward="true" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+        <state relative-caret-position="360">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
-            <element signature="method#sexItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-            <element signature="method#ageItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-            <element signature="method#scoreItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
-            <element signature="method#initComponents#0;class#UserCheckDocJPane#0" expanded="false" />
-            <marker date="1530354715362" expanded="true" signature="7674:11622" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1530354715362" expanded="true" signature="11634:12039" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1530440768802" expanded="true" signature="1140:2373" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1530440768802" expanded="true" signature="2385:2593" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9960">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,20 +1222,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/8b0e687/d37a743f-4c2b-4f5f-b699-da93500ccd13/DPDB.dbo.Users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/DocListJpane.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/UserCheckDocJPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="643">
+          <caret line="191" column="58" lean-forward="true" selection-start-line="191" selection-start-column="58" selection-end-line="191" selection-end-column="58" />
           <folding>
-            <marker date="1530440768802" expanded="true" signature="1140:2373" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1530440768802" expanded="true" signature="2385:2593" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="method#UserCheckDocJPane#0;class#UserCheckDocJPane#0" expanded="false" />
+            <element signature="method#getProvinces#0;class#UserCheckDocJPane#0" expanded="false" />
+            <element signature="method#provinceItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
+            <element signature="method#countyItemStateChanged#0;class#UserCheckDocJPane#0" expanded="false" />
+            <marker date="1530442164467" expanded="true" signature="7674:11322" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1530442164467" expanded="true" signature="11334:11739" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
