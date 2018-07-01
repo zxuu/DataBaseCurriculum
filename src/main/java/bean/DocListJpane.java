@@ -9,6 +9,8 @@ import model.Doctors;
 
 import java.awt.*;
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 /**
  * @author we
@@ -37,9 +39,9 @@ public class DocListJpane extends JPanel {
         colum = new String[]{"姓名", "性别", "年龄", "住址", "工作单位", "工作经历"};
     }
 
-    private void button1ActionPerformed(ActionEvent e) {
-        // TODO add your code here
-        System.out.println("docPanelButton");
+
+    public JButton getButton() {
+        return button1;
     }
 
     private void initComponents() {
@@ -52,7 +54,6 @@ public class DocListJpane extends JPanel {
 
         //---- button1 ----
         button1.setText("\u786e\u8ba4\u9009\u62e9");
-        button1.addActionListener(e -> button1ActionPerformed(e));
         add(button1);
         button1.setBounds(825, 40, 150, 55);
         add(table1);
@@ -77,5 +78,8 @@ public class DocListJpane extends JPanel {
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     private JButton button1;
     private JTable table1;
+
+
+
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

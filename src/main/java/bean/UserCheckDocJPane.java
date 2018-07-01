@@ -4,7 +4,10 @@
 
 package bean;
 
-import jframe.test;
+import jframe.BaseJFrame;
+import jframe.a;
+import jframe.b;
+import jframe.c;
 import model.Doctors;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -21,12 +24,13 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 import javax.swing.*;
 
 /**
  * @author we
  */
-public class UserCheckDocJPane extends JPanel {
+public class UserCheckDocJPane extends BaseJFrame {
 
     String[] provinces;
     String[] cities;
@@ -45,6 +49,7 @@ public class UserCheckDocJPane extends JPanel {
     Map<String, Integer> countiesToId;
 
     public UserCheckDocJPane() {
+        super("用户界面",50,50,1000,1000);
         initComponents();
 
         provincesToId = new HashMap<>();
@@ -200,13 +205,13 @@ public class UserCheckDocJPane extends JPanel {
         doctor.query(Doctors.class, new JDBCDao.QueryListener<Doctors>() {
             @Override
             public void onSucceed(List<Doctors> result) {
-                DefaultListModel<DocListJpane> doctorsDefaultListModel = new DefaultListModel<>();
-                for (Doctors d : result) {
-                    doctorsDefaultListModel.addElement(new DocListJpane(d));
+//                DocListJpane[] docListJpanes = new DocListJpane[result.size()];
+                Vector<Doctors> doctorsVector = new Vector<>();
+                for (int i = 0; i < result.size(); i++) {
+                    doctorsVector.add(result.get(i));
                 }
-                JList jList = new JList();
-                jList.setModel(doctorsDefaultListModel);
-                test test = new test(jList);
+
+                new c(doctorsVector);
             }
 
             @Override
