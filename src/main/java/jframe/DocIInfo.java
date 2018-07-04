@@ -1,24 +1,26 @@
-/*
- * Created by JFormDesigner on Tue Jul 03 11:33:29 CST 2018
- */
-
 package jframe;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+import model.DocIModel;
+import model.Doctors;
 
-/**
- * @author we
- */
-public class c extends JFrame {
-    public c() {
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.util.Vector;
+
+public class DocIInfo extends BaseJFrame{
+
+    Vector<Doctors> vector;
+
+    public DocIInfo() {
+        super("医生表",100,100,500,500);
         getContentPane().setBackground(new Color(132, 188, 207));
+        vector = new Vector<>();
         initComponents();
     }
 
     private void button1ActionPerformed(ActionEvent e) {
-        // TODO add your code here
+
     }
 
     private void initComponents() {
@@ -35,8 +37,15 @@ public class c extends JFrame {
         button1.addActionListener(e -> button1ActionPerformed(e));
         contentPane.add(button1);
         button1.setBounds(150, 295, 170, button1.getPreferredSize().height);
+
+        vector.add(Aplication.doctorI);
+        JTable jTable = new JTable(new DocIModel(vector));
+        jTable.setBounds(10, 15, 1070, 645);
+        JScrollPane jScrollPane = new JScrollPane(jTable);
+        panel1.add(jScrollPane);
+
         contentPane.add(panel1);
-        panel1.setBounds(10, 15, 470, 270);
+        panel1.setBounds(10, 15, 1070, 645);
 
         { // compute preferred size
             Dimension preferredSize = new Dimension();

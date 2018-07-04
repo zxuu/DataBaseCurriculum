@@ -5,9 +5,7 @@
 package bean;
 
 import jframe.BaseJFrame;
-import jframe.a;
-import jframe.b;
-import jframe.c;
+import jframe.UserIInfo;
 import model.Doctors;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -50,6 +48,7 @@ public class UserCheckDocJPane extends BaseJFrame {
 
     public UserCheckDocJPane() {
         super("用户界面",50,50,1000,1000);
+        getContentPane().setBackground(new Color(132, 188, 207));
         initComponents();
 
         provincesToId = new HashMap<>();
@@ -205,15 +204,12 @@ public class UserCheckDocJPane extends BaseJFrame {
         doctor.query(Doctors.class, new JDBCDao.QueryListener<Doctors>() {
             @Override
             public void onSucceed(List<Doctors> result) {
-//                DocListJpane[] docListJpanes = new DocListJpane[result.size()];
                 Vector<Doctors> doctorsVector = new Vector<>();
                 for (int i = 0; i < result.size(); i++) {
                     doctorsVector.add(result.get(i));
                 }
-
-                new c(doctorsVector);
+                new UserIInfo(doctorsVector);
             }
-
             @Override
             public void onFailed(Exception e) {
 
@@ -262,7 +258,6 @@ public class UserCheckDocJPane extends BaseJFrame {
             "\u5973"
         }));
         sex.addItemListener(e -> {
-//			provinceItemStateChanged(e);
 			sexItemStateChanged(e);
 		});
         add(sex);
@@ -306,7 +301,6 @@ public class UserCheckDocJPane extends BaseJFrame {
             "50"
         }));
         age.addItemListener(e -> {
-//			provinceItemStateChanged(e);
 			ageItemStateChanged(e);
 		});
         add(age);
@@ -327,7 +321,6 @@ public class UserCheckDocJPane extends BaseJFrame {
             "10"
         }));
         score.addItemListener(e -> {
-//			provinceItemStateChanged(e);
 			scoreItemStateChanged(e);
 		});
         add(score);
@@ -355,7 +348,6 @@ public class UserCheckDocJPane extends BaseJFrame {
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
-    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     private JComboBox<String> province;
     private JComboBox<String> city;
     private JComboBox<String> county;
@@ -363,5 +355,4 @@ public class UserCheckDocJPane extends BaseJFrame {
     private JComboBox<String> age;
     private JComboBox<String> score;
     private JButton startCheck;
-    // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

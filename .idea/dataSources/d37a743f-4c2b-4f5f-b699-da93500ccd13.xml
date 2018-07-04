@@ -23,7 +23,7 @@
     </database>
     <schema id="7" parent="6" name="dbo">
       <ObjectId>1</ObjectId>
-      <IntrospectionTimestamp>2018-07-02.04:20:10.163</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-07-04.21:12:13.157</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -78,17 +78,17 @@
     <table id="20" parent="7" name="Doctors">
       <ObjectId>1221579390</ObjectId>
       <CreatedTimestamp>2018-06-21.01:32:53.877</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.807</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-07-03.05:48:46.443</ModifiedTimestamp>
     </table>
     <table id="21" parent="7" name="UserSelDoc">
       <ObjectId>1989582126</ObjectId>
       <CreatedTimestamp>2018-07-02.04:19:48.667</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.667</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-07-03.05:50:43.087</ModifiedTimestamp>
     </table>
     <table id="22" parent="7" name="Users">
       <ObjectId>1253579504</ObjectId>
       <CreatedTimestamp>2018-06-21.04:04:08.780</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.807</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-07-03.05:50:43.187</ModifiedTimestamp>
     </table>
     <column id="23" parent="20" name="Dname">
       <Position>1</Position>
@@ -148,13 +148,17 @@
       <Position>13</Position>
       <DataType>varchar(12)|0</DataType>
     </column>
-    <index id="36" parent="20" name="Doctors_Dtel_pk">
+    <column id="36" parent="20" name="Dscore">
+      <Position>14</Position>
+      <DataType>varchar(2)|0</DataType>
+    </column>
+    <index id="37" parent="20" name="Doctors_Dtel_pk">
       <Position>1</Position>
       <ColNames>Dtel</ColNames>
       <Clustering>1</Clustering>
       <Unique>1</Unique>
     </index>
-    <key id="37" parent="20" name="Doctors_Dtel_pk">
+    <key id="38" parent="20" name="Doctors_Dtel_pk">
       <ObjectId>1525580473</ObjectId>
       <CreatedTimestamp>2018-06-21.22:31:16.187</CreatedTimestamp>
       <ModifiedTimestamp>2018-06-21.22:31:16.187</ModifiedTimestamp>
@@ -162,49 +166,30 @@
       <UnderlyingIndexName>Doctors_Dtel_pk</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="38" parent="21" name="Uname">
+    <column id="39" parent="21" name="Uname">
       <Position>1</Position>
       <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="39" parent="21" name="Utel">
+    <column id="40" parent="21" name="Utel">
       <Position>2</Position>
       <DataType>varchar(25)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="40" parent="21" name="Dname">
+    <column id="41" parent="21" name="Dname">
       <Position>3</Position>
       <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="41" parent="21" name="Dtel">
+    <column id="42" parent="21" name="Dtel">
       <Position>4</Position>
       <DataType>varchar(25)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="42" parent="21" name="PK__UserSelD__627F78AF93A25BB6">
-      <Position>1</Position>
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>Utel
-Dtel</ColNames>
-      <Clustering>1</Clustering>
-      <Unique>1</Unique>
-    </index>
-    <key id="43" parent="21" name="PK__UserSelD__627F78AF93A25BB6">
-      <ObjectId>2005582183</ObjectId>
-      <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2018-07-02.04:19:48.743</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.743</ModifiedTimestamp>
-      <ColNames>Utel
-Dtel</ColNames>
-      <UnderlyingIndexName>PK__UserSelD__627F78AF93A25BB6</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="44" parent="21" name="FK__UserSelDoc__Utel__787EE5A0">
-      <ObjectId>2021582240</ObjectId>
-      <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2018-07-02.04:19:48.753</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.753</ModifiedTimestamp>
+    <foreign-key id="43" parent="21" name="UserSelDoc_Users_Utel_fk">
+      <ObjectId>2069582411</ObjectId>
+      <CreatedTimestamp>2018-07-03.05:50:43.087</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.05:50:43.087</ModifiedTimestamp>
       <ColNames>Utel</ColNames>
       <RefTableId>1253579504</RefTableId>
       <RefSchemaName>dbo</RefSchemaName>
@@ -212,59 +197,47 @@ Dtel</ColNames>
       <RefKeyName>Users_Utel_pk</RefKeyName>
       <RefColNames>Utel</RefColNames>
     </foreign-key>
-    <foreign-key id="45" parent="21" name="FK__UserSelDoc__Dtel__797309D9">
-      <ObjectId>2037582297</ObjectId>
-      <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2018-07-02.04:19:48.807</CreatedTimestamp>
-      <ModifiedTimestamp>2018-07-02.04:19:48.807</ModifiedTimestamp>
-      <ColNames>Dtel</ColNames>
-      <RefTableId>1221579390</RefTableId>
-      <RefSchemaName>dbo</RefSchemaName>
-      <RefTableName>Doctors</RefTableName>
-      <RefKeyName>Doctors_Dtel_pk</RefKeyName>
-      <RefColNames>Dtel</RefColNames>
-    </foreign-key>
-    <column id="46" parent="22" name="Uname">
+    <column id="44" parent="22" name="Uname">
       <Position>1</Position>
       <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="47" parent="22" name="Usex">
+    <column id="45" parent="22" name="Usex">
       <Position>2</Position>
       <DataType>char(2)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="48" parent="22" name="Uage">
+    <column id="46" parent="22" name="Uage">
       <Position>3</Position>
       <DataType>varchar(8)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="49" parent="22" name="Utel">
+    <column id="47" parent="22" name="Utel">
       <Position>4</Position>
       <DataType>varchar(25)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="50" parent="22" name="Udescribe">
+    <column id="48" parent="22" name="Udescribe">
       <Position>5</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="51" parent="22" name="Upassword">
+    <column id="49" parent="22" name="Upassword">
       <Position>6</Position>
       <DataType>varchar(30)|0</DataType>
     </column>
-    <index id="52" parent="22" name="Users_Utel_uindex">
+    <index id="50" parent="22" name="Users_Utel_uindex">
       <Position>2</Position>
       <ColNames>Utel</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="53" parent="22" name="Users_Utel_pk">
+    <index id="51" parent="22" name="Users_Utel_pk">
       <Position>1</Position>
       <ColNames>Utel</ColNames>
       <Clustering>1</Clustering>
       <Unique>1</Unique>
     </index>
-    <key id="54" parent="22" name="Users_Utel_pk">
+    <key id="52" parent="22" name="Users_Utel_pk">
       <ObjectId>1285579618</ObjectId>
       <CreatedTimestamp>2018-06-21.17:25:58.117</CreatedTimestamp>
       <ModifiedTimestamp>2018-06-21.17:25:58.117</ModifiedTimestamp>

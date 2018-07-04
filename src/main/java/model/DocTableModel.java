@@ -1,7 +1,5 @@
 package model;
 
-import com.sun.org.apache.bcel.internal.generic.CASTORE;
-
 import javax.swing.table.AbstractTableModel;
 import java.util.Vector;
 
@@ -12,7 +10,7 @@ public class DocTableModel  extends AbstractTableModel {
          * 这里和刚才一样，定义列名和每个数据的值
          */
         String[] columnNames =
-                {"姓名","性别","年龄","电话号码","住址","工作单位","工作经历","选择"};
+                {"姓名","性别","年龄","电话号码","住址","工作单位","工作经历","评分","选择"};
         Object[][] data;
         int rowCount;
 
@@ -22,9 +20,9 @@ public class DocTableModel  extends AbstractTableModel {
         public DocTableModel(Vector<Doctors> doctorsVector) {
             this.doctorsVector = doctorsVector;
             rowCount = doctorsVector.size();
-            data = new Object[rowCount][8];
+            data = new Object[rowCount][9];
             for (int i = 0; i < data.length; i++) {
-                for (int j = 0; j < 8; j++) {
+                for (int j = 0; j < 9; j++) {
                     switch (j) {
                         case 0:
                             data[i][j] = doctorsVector.get(i).getDname();
@@ -47,6 +45,9 @@ public class DocTableModel  extends AbstractTableModel {
                             data[i][j] = doctorsVector.get(i).getDworkexp();
                             break;
                         case 7:
+                            data[i][j] = doctorsVector.get(i).getDscore();
+                            break;
+                        case 8:
                             data[i][j] = new Boolean(false);
                             break;
                     }
